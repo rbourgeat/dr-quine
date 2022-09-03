@@ -6,7 +6,7 @@
 #    By: rbourgea <rbourgea@student.42.fr>          +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2022/08/30 13:00:45 by rbourgea          #+#    #+#              #
-#    Updated: 2022/09/02 16:00:39 by rbourgea         ###   ########.fr        #
+#    Updated: 2022/09/03 18:58:05 by rbourgea         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -36,11 +36,6 @@ clean:
 fclean: clean
 	- rm tmp_Colleen
 	- rm Grace_kid.c
-	- rm Sully_0.c
-	- rm Sully_1.c
-	- rm Sully_2.c
-	- rm Sully_3.c
-	- rm Sully_4.c
-	- rm Sully_5.c
+	- rm Sully_*
 
 re: fclean all
